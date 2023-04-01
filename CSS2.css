@@ -1,0 +1,39 @@
+body{
+    font-family: 'Ginebra', monospace;
+    margin: 0;
+}
+header{
+    display: flex;
+    height: 70px;
+    background-color: darkcyan;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+
+nav a:hover{
+    color: white;
+}
